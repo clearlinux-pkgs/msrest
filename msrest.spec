@@ -4,7 +4,7 @@
 #
 Name     : msrest
 Version  : 0.6.2
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/d8/9a/34f359d9acba054274202f6a2f0bdc3c907f938aeb7dff612002874f17ea/msrest-0.6.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d8/9a/34f359d9acba054274202f6a2f0bdc3c907f938aeb7dff612002874f17ea/msrest-0.6.2.tar.gz
 Summary  : AutoRest swagger generator Python client runtime.
@@ -16,6 +16,7 @@ Requires: aiohttp
 Requires: certifi
 Requires: enum34
 Requires: isodate
+Requires: requests-oauthlib
 Requires: typing
 BuildRequires : buildreq-distutils3
 BuildRequires : certifi
@@ -51,7 +52,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1542736243
+export SOURCE_DATE_EPOCH=1544000438
+export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
 %install
