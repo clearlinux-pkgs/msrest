@@ -1,5 +1,5 @@
 PKG_NAME := msrest
-URL = https://files.pythonhosted.org/packages/d8/9a/34f359d9acba054274202f6a2f0bdc3c907f938aeb7dff612002874f17ea/msrest-0.6.2.tar.gz
+URL = https://files.pythonhosted.org/packages/71/4f/408da7e619c348782762d88f96d664086a97f6f2f70804367f3ca5e7d589/msrest-0.6.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
