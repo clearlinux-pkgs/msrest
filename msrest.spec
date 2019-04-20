@@ -4,7 +4,7 @@
 #
 Name     : msrest
 Version  : 0.6.6
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/0b/ec/437da5296f540830eb7fe0d0d06e4f3f4d97b82ef369b637dec76bf20f3e/msrest-0.6.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/ec/437da5296f540830eb7fe0d0d06e4f3f4d97b82ef369b637dec76bf20f3e/msrest-0.6.6.tar.gz
 Summary  : AutoRest swagger generator Python client runtime.
