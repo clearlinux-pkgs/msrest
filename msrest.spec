@@ -4,7 +4,7 @@
 #
 Name     : msrest
 Version  : 0.6.10
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/08/5d/e22f815bc27ae7f9ae9eb22c0cd35f103ac481aa7d0cf644b7ea10f368f3/msrest-0.6.10.tar.gz
 Source0  : https://files.pythonhosted.org/packages/08/5d/e22f815bc27ae7f9ae9eb22c0cd35f103ac481aa7d0cf644b7ea10f368f3/msrest-0.6.10.tar.gz
 Summary  : AutoRest swagger generator Python client runtime.
@@ -14,23 +14,18 @@ Requires: msrest-python = %{version}-%{release}
 Requires: msrest-python3 = %{version}-%{release}
 Requires: aiohttp
 Requires: certifi
-Requires: enum34
 Requires: isodate
 Requires: requests-oauthlib
 Requires: typing
 BuildRequires : aiohttp
 BuildRequires : buildreq-distutils3
 BuildRequires : certifi
-BuildRequires : enum34
 BuildRequires : isodate
 BuildRequires : requests-oauthlib
 BuildRequires : typing
 
 %description
-AutoRest: Python Client Runtime
 ===============================
-.. image:: https://travis-ci.org/Azure/msrest-for-python.svg?branch=master
-:target: https://travis-ci.org/Azure/msrest-for-python
 
 %package python
 Summary: python components for the msrest package.
@@ -58,8 +53,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1567647754
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1571081995
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
