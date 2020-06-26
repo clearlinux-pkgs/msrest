@@ -4,7 +4,7 @@
 #
 Name     : msrest
 Version  : 0.6.17
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/5b/ef/fa5397ec8245da46ab41456c760e73610eee52f59500564b7006a8fad1fa/msrest-0.6.17.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5b/ef/fa5397ec8245da46ab41456c760e73610eee52f59500564b7006a8fad1fa/msrest-0.6.17.tar.gz
 Summary  : AutoRest swagger generator Python client runtime.
@@ -38,6 +38,11 @@ python components for the msrest package.
 Summary: python3 components for the msrest package.
 Group: Default
 Requires: python3-core
+Provides: pypi(msrest)
+Requires: pypi(certifi)
+Requires: pypi(isodate)
+Requires: pypi(requests)
+Requires: pypi(requests_oauthlib)
 
 %description python3
 python3 components for the msrest package.
@@ -52,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1593188203
+export SOURCE_DATE_EPOCH=1593191886
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
